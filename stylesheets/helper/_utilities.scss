@@ -8,8 +8,10 @@
 // HTML5 Placeholder Styling
 @mixin placeholder() {
     .placeholder { @content;  }
-    ::-webkit-input-placeholder  { @content;  }
+    ::-webkit-input-placeholder  { @content;  }    
     :-moz-placeholder { @content;  }
+    ::-moz-placeholder { @content;  }
+    :-ms-input-placeholder { @content;  }
 }
 
 // CSS3 Animation
