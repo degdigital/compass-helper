@@ -10,6 +10,6 @@ require 'compass-helper'
 To use the plugin, just import and include:
 
 ```
-@import 'compass-helper';
+@import 'helper/utilities';
 ```
 
